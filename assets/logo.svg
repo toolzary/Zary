@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="zaryGradient" x1="80" y1="70" x2="430" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded terminal window -->
+  <rect
+    x="48"
+    y="48"
+    width="416"
+    height="416"
+    rx="96"
+    fill="url(#zaryGradient)"
+  />
+
+  <!-- Terminal prompt -->
+  <path
+    d="M145 168L215 238L145 308"
+    stroke="white"
+    stroke-width="32"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Z / command line -->
+  <path
+    d="M245 308H365"
+    stroke="white"
+    stroke-width="32"
+    stroke-linecap="round"
+  />
+
+  <!-- Small terminal cursor -->
+  <rect
+    x="245"
+    y="168"
+    width="72"
+    height="32"
+    rx="16"
+    fill="white"
+  />
+</svg>
